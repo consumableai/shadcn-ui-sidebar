@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# [shadcn/ui sidebar](https://shadcn-ui-sidebar.consumableai.com)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning and functional retractable sidebar for React.js built on top of [shadcn/ui](https://ui.shadcn.com) complete with desktop and mobile responsiveness.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Retractable mini and wide sidebar
+- Scrollable sidebar menu
+- Sheet menu for mobile
+- Grouped menu with labels
+- Collapsible submenu
+- Extracted menu items list
 
-## Expanding the ESLint configuration
+## Tech/framework used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React.js 18
+- Shadcn/ui
+- Tailwind CSS
+- TypeScript
+- Zustand
 
-- Configure the top-level `parserOptions` property like this:
+## Starting the project locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/consumableai/shadcn-ui-sidebar.git
+   ```
+
+2. Install dependencies
+
+   ```bash
+   cd shadcn-ui-sidebar
+   npm install
+   ```
+
+3. Run the development server
+
+   ```bash
+   npm run dev
+   ```
+
+## Demo
+
+The app is hosted on Consumable AI domain. [Click here](https://shadcn-ui-sidebar.consumableai.com) to visit.
+<br>
+Direct demo link: `https://shadcn-ui-sidebar.consumableai.com`
+
+## Screenshots
+
+#### Light mode
+
+![Light mode](/screenshots/screenshot-1.png)
+
+#### Dark mode
+
+![Dark mode](/screenshots/screenshot-2.png)
+
+#### Mini sidebar
+
+![Mini sidebar](/screenshots/screenshot-3.png)
+
+#### Sheet menu
+
+<img src="/screenshots/screenshot-4.png" width="300">
