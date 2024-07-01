@@ -63,3 +63,5 @@ Direct demo link: `https://shadcn-ui-sidebar.consumableai.com`
 #### Sheet menu
 
 <img src="/screenshots/screenshot-4.png" width="300">
+
+[credits salimi-my](https://github.com/salimi-my/shadcn-ui-sidebar) 
